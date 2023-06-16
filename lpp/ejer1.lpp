@@ -1,0 +1,7 @@
+entero numero 
+
+inicio
+escriba "ingrese el numero "
+lea numero 
+escriba "has introducido el numero ", numero, " gracias "
+fin

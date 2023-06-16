@@ -1,0 +1,13 @@
+entero la1, la2, area, perimetro
+inicio
+escriba "ingrese 1 lado del rectangulo "
+lea la1
+llamar nueva_linea 
+escriba "ingrese 2 lado de su retangulo "
+lea la2 
+area <- (la1*la2)
+perimetro <- (la1*2)+(la2*2)
+escriba "el area de su rectangulo es ", area 
+llamar nueva_linea 
+escriba "el perimetro de su rectangulo es ", perimetro
+fin

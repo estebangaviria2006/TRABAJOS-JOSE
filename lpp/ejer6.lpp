@@ -1,0 +1,7 @@
+entero pesos, euro
+inicio
+escriba "ingrese los pesos a cambiar"
+lea pesos 
+euro <- (pesos/4444)
+escriba "los pesos ingresados son: ", euro, " euros"
+fin

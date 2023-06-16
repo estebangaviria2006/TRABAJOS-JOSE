@@ -1,0 +1,15 @@
+entero dia, hora, min, seg
+inicio
+escriba " digite dias" 
+llamar nueva_linea
+lea dia
+escriba "digite horas " 
+llamar nueva_linea
+lea hora
+escriba "digite minutos" 
+llamar nueva_linea
+lea min
+min <- 60
+seg <- (min+(hora+(dia*24)*60)*60)
+escriba " la fecha en segundos es", seg
+fin

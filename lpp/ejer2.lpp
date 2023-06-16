@@ -1,0 +1,7 @@
+entero edad
+
+inicio
+escriba "cuantos años tienes "
+lea edad 
+escriba "Ahora se que tienes  ", edad, " de vida. "
+fin

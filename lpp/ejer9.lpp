@@ -1,0 +1,10 @@
+
+entero seg, min, hora, dia
+inicio 
+escriba " introduzca los segundos a convertir en minutos, horas, dias "
+lea seg
+dia <- seg/60/60/24
+hora <- seg/60/60
+min <- seg/60
+escriba "los segundos ", seg, "ingresados son: ",dia," dias ", hora," horas ", min, " minutos"
+fin

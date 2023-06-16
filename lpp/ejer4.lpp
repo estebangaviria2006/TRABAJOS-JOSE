@@ -1,0 +1,10 @@
+entero precio, descuento, valor
+inicio 
+escriba "ingrese el precio de su producto"
+lea precio
+llamar nueva_linea
+escriba "ingrese el tanto por ciento de descuento "
+lea descuento 
+valor <- precio - (precio*descuento/100)
+escriba "el precio  es de ",precio," y su descuento es de ", descuento,"% el valor final es de ", valor
+fin

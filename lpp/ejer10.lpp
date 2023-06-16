@@ -1,0 +1,22 @@
+entero a, b, c
+real disc, x1, x2
+inicio
+escriba " digite los valores de a,b ,c de la ecuacion igualada a cero" 
+llamar nueva_linea
+escriba "Valor a: "
+lea a
+escriba "Valor b: "
+lea b
+escriba "Valor c: "
+lea c
+disc <_ b*2-4*a*c
+si (disc >-0) entonces
+x1 <- (-1*b+(b*2-4*a*c)*(1/2))/(2*a)
+x2 <- (-1*b-(b*2-4*a*c)*(1/2))/(2*a)
+escriba "X1 - ",x1
+llamar nueva_linea
+escriba "X2 - ",x2
+sino
+  escriba "La funcion cuadratica tiene un valor"
+fin si
+fin 

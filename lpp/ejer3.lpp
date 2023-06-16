@@ -1,0 +1,11 @@
+cadena[20] iniciales
+entero estatura
+
+inicio
+escriba "ingrese sus iniciales "
+lea iniciales
+escriba "ingrese su estatura aproximada."
+lea estatura
+llamar nueva_linea
+escriba "sus inicales son  ",iniciales, " y su estatura aproximada es ", estatura
+fin
